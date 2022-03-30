@@ -1,0 +1,54 @@
+
+@media screen {
+    
+}
+.carrinho{ 
+    background-image:url(img/carrinho.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+     }
+     
+     .bnt4{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: rgba(245, 245, 245, 0.65);
+        padding: 10px;
+        font-size: 20px; 
+        border-radius: 10px; 
+        gap: 100px;
+       margin: 30px;   
+       border-color: 2px;
+        transition: .5s ease-in-out;
+        border: 1px solid;
+        display: center;
+        align-items: center;
+        justify-content: center;
+        border-color: rgba(240, 248, 255, 0);
+    }
+        
+    .bnt4:hover{
+     background-color: rgba(241, 245, 0, 0.39);
+     }        
+        
+        a:visited{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.945);
+        }
+        
+        .textos{
+            text-align: center;
+        } 
+    .imgbuy{
+        display:flex ;
+    flex-direction: column;
+    gap: 70px;
+    width: 500px;
+    border-radius: 30px;
+      }
+
+      .wpp{
+        display:flex ;
+        align-items: center;
+      }
+    

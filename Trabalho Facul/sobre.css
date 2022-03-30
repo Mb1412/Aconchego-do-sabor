@@ -1,0 +1,50 @@
+body{
+    background-image: url(img/fundocerto2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.rodape{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 600px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 360px;
+}
+.textoimg{
+    font-size: 20px;
+    text-align: center;
+    color:aliceblue;
+    margin-left: -40px;
+}
+.textoimg p{
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+.botaosobre{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 245, 0.555);
+    padding: 10px;
+    font-size: 20px; 
+    border-radius: 10px; 
+  margin-top: auto;
+   margin: 40px;   
+   border-color: 1px;
+    transition: .5s ease-in-out;
+    border: 1px solid;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    border-color: rgba(240, 248, 255, 0.37);
+    margin-left: 200px;
+}
+.botaohome:hover{
+    background-color: rgba(140, 163, 36, 0.39);
+}
+.mapa{
+    margin-left: 110px;
+}

@@ -1,0 +1,78 @@
+body{
+    background-image: url(img/fundogele.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.climg{
+    display:flex ;
+    flex-direction: column;
+    gap: 70px;
+      }
+
+.imgtex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+      }
+
+.img1{
+        width: 250px;
+        height: auto;
+    }
+    
+    
+.bnt2{
+  
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 15px;
+    font-size: 20px; 
+    border-radius: 10px; 
+    }  
+    
+    
+    a:visited{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.945);
+    }
+    
+    .addcarrinho{
+        display: flex;
+        display: inline-block;
+        flex-direction: column;
+        gap: 10px;
+    }
+   
+    .bnt3{
+  
+        text-decoration: none;
+        background-color: rgba(240, 237, 65, 0.712);
+        padding: 15px;
+        font-size: 20px; 
+        border-radius: 10px; 
+        padding-left: 100px;
+        padding-right: 100px; 
+         }  
+        
+         .botaohome{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            background-color: rgba(245, 245, 245, 0);
+            padding: 10px;
+            font-size: 20px; 
+            border-radius: 10px; 
+            gap: 100px;
+           margin: 60px;   
+           border-color: 2px;
+            transition: .5s ease-in-out;
+            border: 1px solid;
+            display: center;
+            align-items: center;
+            justify-content: center;
+            border-color: rgba(240, 248, 255, 0);
+            margin-left: 175px;
+        }
+        .botaohome:hover{
+            background-color: rgba(229, 255, 111, 0.39);
+        }
