@@ -14,11 +14,14 @@ body{
     display: flex;
     gap: 20px;
     align-items: center;
+    margin-left: 30px;
+    padding: 20px;
       }
 
 .img1{
         width: 250px;
         height: auto;
+    
     }
     
     
@@ -58,12 +61,12 @@ body{
          .botaohome{
             text-decoration: none;
             color: rgb(0, 0, 0);
-            background-color: rgba(245, 245, 245, 0);
+            background-color: rgba(253, 255, 105, 0.202);
             padding: 10px;
             font-size: 20px; 
             border-radius: 10px; 
             gap: 100px;
-           margin: 60px;   
+           margin: 30px;   
            border-color: 2px;
             transition: .5s ease-in-out;
             border: 1px solid;
@@ -75,4 +78,7 @@ body{
         }
         .botaohome:hover{
             background-color: rgba(229, 255, 111, 0.39);
+        }
+        html {
+            scroll-behavior: smooth;
         }

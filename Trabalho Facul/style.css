@@ -1,7 +1,5 @@
 
-@media screen {
-    
-}
+
 .carrinho{ 
     background-image:url(img/carrinho.jpg);
     background-repeat: no-repeat;
@@ -12,19 +10,18 @@
      .bnt4{
         text-decoration: none;
         color: rgb(0, 0, 0);
-        background-color: rgba(245, 245, 245, 0.65);
+        background-color: rgba(245, 245, 245, 0);
         padding: 10px;
         font-size: 20px; 
         border-radius: 10px; 
-        gap: 100px;
-       margin: 30px;   
+       margin: 20px;  
        border-color: 2px;
         transition: .5s ease-in-out;
         border: 1px solid;
-        display: center;
-        align-items: center;
+        display: flex;
         justify-content: center;
         border-color: rgba(240, 248, 255, 0);
+        margin-left: 120px;
     }
         
     .bnt4:hover{
@@ -38,17 +35,23 @@
         
         .textos{
             text-align: center;
+            
         } 
     .imgbuy{
         display:flex ;
     flex-direction: column;
-    gap: 70px;
-    width: 500px;
-    border-radius: 30px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
       }
 
       .wpp{
         display:flex ;
         align-items: center;
+        margin-left: 100px;
       }
     
+      html {
+        scroll-behavior: smooth;
+    }

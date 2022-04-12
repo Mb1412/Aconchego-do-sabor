@@ -1,0 +1,36 @@
+body{
+    background-image: url(img/fundo-criadora.jpg);
+}
+.criadora{
+    display: flex;
+width: 600px;
+margin-left: 400px;
+    align-items: center;
+}
+.botaohome{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 245, 0);
+    padding: 10px;
+    font-size: 20px; 
+    border-radius: 10px; 
+   margin: 20px;  
+   border-color: 2px;
+    transition: .5s ease-in-out;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    border-color: rgba(240, 248, 255, 0);
+    margin-left: 120px;
+}
+.botaohome:hover{
+    background-color: rgba(140, 163, 36, 0.39);
+    }
+    .texto{
+       font-size: 35px;
+       margin-left: 25px; 
+    }
+    .p{
+       font-size: 27px; 
+       margin-left: 110px;
+    }

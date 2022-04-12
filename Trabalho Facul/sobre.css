@@ -27,24 +27,25 @@ body{
 .botaosobre{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    background-color: rgba(245, 245, 245, 0.555);
+    background-color: rgba(245, 245, 245, 0);
     padding: 10px;
     font-size: 20px; 
     border-radius: 10px; 
-  margin-top: auto;
-   margin: 40px;   
-   border-color: 1px;
+   margin: 20px;  
+   border-color: 2px;
     transition: .5s ease-in-out;
     border: 1px solid;
-    display: center;
-    align-items: center;
+    display: flex;
     justify-content: center;
-    border-color: rgba(240, 248, 255, 0.37);
-    margin-left: 200px;
-}
-.botaohome:hover{
+    border-color: rgba(240, 248, 255, 0);
+    margin-left: 120px;
+        }
+.botaosobre:hover{
     background-color: rgba(140, 163, 36, 0.39);
 }
 .mapa{
     margin-left: 110px;
+}
+html {
+    scroll-behavior: smooth;
 }
